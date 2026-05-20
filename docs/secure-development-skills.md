@@ -1,6 +1,6 @@
 # Secure Development skills
 
-110 tool-agnostic secure development skills organized by category, covering **AI/agentic infrastructure security**, **code-level secure configuration**, **security design principles**, and **technology-specific hardening**.
+111 tool-agnostic secure development skills organized by category, covering **AI/agentic infrastructure security**, **code-level secure configuration**, **security design principles**, and **technology-specific hardening**.
 
 ## Usage
 
@@ -39,7 +39,7 @@ Teams copying subsets into another repo can omit skill directories they do not n
 
 | Subcategory | Skills | Focus |
 |-------------|--------|-------|
-| [`crypto`](#crypto) | 8 | Constant-time analysis, protocol diagramming, zeroization audit, test vectors (Wycheproof), algorithm selection and post-quantum readiness |
+| [`crypto`](#crypto) | 9 | Constant-time analysis, protocol diagramming, zeroization audit, test vectors (Wycheproof), algorithm selection, FIPS compliance, and post-quantum readiness |
 | [`secure-config`](#secure-config) | 5 | Insecure defaults, API sharp edges, agentic CI/CD action auditing, Apache Camel security, build YAML misconfiguration (GitLab CI, Tekton, Containerfile) |
 | [`supply-chain`](#supply-chain) | 5 | Dependency risk auditing, SBOM/provenance, secure pipelines, software signing, vulnerability management |
 
@@ -203,6 +203,7 @@ Teams copying subsets into another repo can omit skill directories they do not n
 | [`constant-time-analysis`](../module/skills/constant-time-analysis/SKILL.md) | Identify and eliminate timing side-channels in cryptographic code |
 | [`constant-time-testing`](../module/skills/constant-time-testing/SKILL.md) | Write tests to detect timing variations in constant-time implementations |
 | [`crypto-protocol-diagram`](../module/skills/crypto-protocol-diagram/SKILL.md) | Diagram cryptographic protocols for review and threat modelling |
+| [`fips-compliance`](../module/skills/fips-compliance/SKILL.md) | Enforce FIPS 140-2/140-3 compliance for RHEL, OpenShift, and Go workloads |
 | [`mermaid-to-proverif`](../module/skills/mermaid-to-proverif/SKILL.md) | Translate Mermaid sequence diagrams of cryptographic protocols into ProVerif models |
 | [`vector-forge`](../module/skills/vector-forge/SKILL.md) | Mutation-driven test vector generation for cryptographic implementations |
 | [`wycheproof`](../module/skills/wycheproof/SKILL.md) | Run Wycheproof test vectors against cryptographic implementations |

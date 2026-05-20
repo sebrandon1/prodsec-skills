@@ -1,12 +1,12 @@
 # Skills Index
 
-135 production-ready skills. All skills are tool-agnostic markdown — they work with Claude Code, Cursor, Copilot, or any assistant that can read files.
+137 production-ready skills. All skills are tool-agnostic markdown — they work with Claude Code, Cursor, Copilot, or any assistant that can read files.
 
 ## Categories
 
 | Category | Skills | Purpose |
 |----------|--------|---------|
-| [`secure_development/`](#secure_development) | 110 | Building secure software — AI/agentic infrastructure, cryptography, supply chain, security principles, technology-specific hardening |
+| [`secure_development/`](#secure_development) | 111 | Building secure software — AI/agentic infrastructure, cryptography, supply chain, security principles, technology-specific hardening |
 | [`security_testing/`](#security_testing) | 17 | Finding vulnerabilities — fuzzing and static analysis |
 | [`security_auditing/`](#security_auditing) | 4 | Security review workflows |
 | [`developer_tooling/`](#developer_tooling) | 4 | General-purpose development tooling |
@@ -23,7 +23,7 @@ See [Secure development skills](secure-development-skills.md) for the full index
 | `api-gateway/` | 4 | Authentication enforcement, routing, rate limiting, request validation |
 | `api-keys/` | 1 | Avoiding API keys; prefer IdP-issued tokens |
 | `authorization-server/` | 4 | OAuth 2.1, dynamic client registration, discovery |
-| `crypto/` | 8 | Constant-time analysis, protocol diagramming, zeroization, test vectors, algorithm selection and post-quantum readiness |
+| `crypto/` | 9 | Constant-time analysis, protocol diagramming, zeroization, test vectors, algorithm selection, FIPS compliance, and post-quantum readiness |
 | `eval-sandbox/` | 1 | Output validation in isolated sandboxes |
 | `external-data-source/` | 6 | Auth, authz, encryption, logging, network ACLs, Redis/ElastiCache for external connections |
 | `guardrails/` | 1 | Bidirectional prompt and output filtering |
